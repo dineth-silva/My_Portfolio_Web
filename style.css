@@ -78,6 +78,9 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 10vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
 }
 
 .home-content h3{
@@ -188,3 +191,27 @@ span{
     margin: 2rem 0 3rem;
 }
 
+.service h2{
+    margin-bottom: 5rem;
+}
+
+.service-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.service-container .service-box{
+    flex: 1 1 30rem;
+    background: var(--snd-bg-color);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid var(--bg-color);
+    transition: .5s ease;
+}
+.service-container .service-box:hover{
+    border-color: var(--main-color);
+    transform: scale(1.02);
+}
